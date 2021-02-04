@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="web.php" method="GET">
+            <h2>Accede a tu Área Clientes</h2>
+            <h3>Elige tu documento</h3>
+            <input type="radio" checked name="documento" id="DNI o Tarjeta de Residencia" value="DNI o Tarjeta de Residencia" class="radio">DNI o Tarjeta de Residencia
+            <br>
+            <br>
+            <input type="radio" name="documento" id="Pasaporte" value="Pasaporte" class="radio">Pasaporte
+            <br>
+            <br>
+            <p style="line-height: 0%;">Número de documento</p>
+            <input class="documento" type="text" size="35" name="numero_doc" id="numero_doc" placeholder="DNI o Tarjeta de Residencia">
+            <br>
+            <br>
+            <p style="line-height: 0%;">Fecha de nacimiento</p>
+            <input type="date" class="fecha">
+            <br>
+            <br>
+            <input type="checkbox" id="recordar">
+            <label for="recordar">Recordar ?</label>
+            <br>
+            <br>
+            <input type="submit" id="boton" value="Entrar" class="entrar">
+            <br>
+            <br>
+            <a href="https://ing.ingdirect.es/pfm/#login-dnie">>Acceder con DNI electrónico</a>
+            <br>
+            <br>
+            <a href="https://ing.ingdirect.es/pfm/#login/security-information">>Más información sobre seguridad</a>
+        </form>
+    </section>
+    <section>
+        <form action="web.php" method="GET">
+            <table cellspacing="20px">
+                <tr>
+                    <td>
+                        <h1 style="line-height: 0%;">Empieza creando tu usuario</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" size="90" class="nombre" placeholder="Nombre (como sale en el DNI)"></td>
+                </tr>
+                <tr>
+                    <td><input class="resto" type="text" placeholder="1ºapellido(como sale en el DNI)"></td>
+                    <td><input class="resto" type="text" placeholder="2ºapellido(como sale en el DNI)"></td>
+                </tr>
+                <tr>
+                    <td><select class="dninif" name="menu" placeholder="Tipo de documento">
+                <option value="1">DNI/NIF/CERT.AEAT</option>
+            </td>
+
+            <td><input type="text" class="resto" placeholder="Número de documento"></td>
+        </tr>
+        <tr>
+            <td><input type="telf" class="resto" placeholder="Móvil"></td>
+            <td><input type="email" class="resto" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td><input class="siguiente" type="submit" value="Siguiente"></td>
+        </tr>
+    </table>
+    
+    </form>
+    </section>
+    <section>
+        <form action="web.php" method="GET">
+
+            <table cellpadding="1px">
+                <tr>
+                    <td>
+                        <h2 style="line-height: 0%;" class="titulo">¿Eres nuevo?</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <p style="line-height: 0%;">Regístrate para guardar tu información y hacer</p>
+                        <p class="registro" style="line-height: 0%;">tus pedidos de forma más fácil y rápida</p>
+                    </td>
+                </tr>
+            </table>
+            <p style="line-height: 0%;">Email</p>
+            <input class="texto" type="email" placeholder="Introduce tu email">
+            <br>
+            <br>
+            <p style="line-height: 0%;">Teléfono</p>
+            <input class="texto" type="telf" placeholder="Tu teléfono">
+            <br>
+            <br>
+            <p style="line-height: 0%;">Contraseña</p>
+            <input class="texto" type="password" placeholder="Introduce tu contraseña">
+            <br>
+            <br>
+            <p style="line-height: 0%;">Confirma tu contraseña</p>
+            <input class="texto" type="password" placeholder="Confirma tu contraseña">
+            <br>
+            <br>
+            <input type="checkbox" id="politicas">
+            <label for="politicas">He leido y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a></label>
+            <br>
+            <br>
+            <input type="checkbox" id="ofertas">
+            <label for="ofertas">Sí, acepto recibir comunicaciones comerciales <br> y ofertas personalizadas según mi perfil.</label>
+            <br>
+            <br>
+            <input class="boton" type="submit" value="Crea tu Cuenta">
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+input.documento {
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+input.entrar {
+    border: 3px solid rgb(255, 94, 0);
+    background-color: rgb(255, 94, 0);
+    text-align: center;
+    width: 335px;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+input.fecha {
+    width: 310px;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.radio {
+    position: relative;
+    height: 17px;
+    width: 17px;
+    border: 5px solid orange;
+    border-radius: 200%;
+    color: rgb(255, 94, 0);
+    background-color: orange;
+}
+
+input.resto {
+    width: 300px;
+    padding: 20px;
+}
+
+select.dninif {
+    width: 343px;
+    padding: 20px;
+}
+
+input.nombre {
+    padding: 20px;
+}
+
+input.siguiente {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    width: 150px;
+    padding: 15px;
+}
+
+input.texto {
+    width: 318px;
+    padding: 10px;
+}
+
+input.boton {
+    background-color: green;
+    width: 318px;
+    padding: 10px;
+    color: white;
+}
+
+p.registro {
+    text-align: center;
+}
+
+h2.titulo {
+    text-align: center;
+}
